@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Pontano+Sans:wght@300..700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    min-height: 100vh;
+    @apply font-sans;
+  }
+
+  #root {
+    @apply h-full flex flex-col gap-y-8 px-[120px] py-10;
+  }
+}
